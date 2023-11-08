@@ -26,20 +26,21 @@ html {
     font-size: 10px;
 }
 
-body {
+/*body {
     min-height: 100vh;
     background: url("./imagens/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Unbounded', cursive;
 }
 
-/*Menu*/
+/*Header*/
 
-.app__header-simbolo{
+/* .app__header-simbolo{
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -49,16 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 .app__header-simbolo-item{
     width: 10px;
     margin-top: 20px;
-}
+} */
 
 /*Cabeçalho*/
 .app__section-banner-container {
-    width: 99rem;
+    width: 80rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -68,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     color: var(--letras);
     font-weight: 200;
-    max-width: 46rem;
+    max-width: 50rem;
 }
 
 .app__title-strong {
@@ -106,11 +107,14 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
 }
 
+/* Produtos */
+
+
 
 /*Rodape*/
 .app__footer {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     padding: 2.8rem 6rem;
     justify-content: center;
     align-items: center;
