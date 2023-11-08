@@ -4,6 +4,7 @@
     --azul-royal:  #FFA500;
     --fundo-card-timer: #ffa60079;
     --lils: #B872FF;
+    --letras: #F0F0F0;
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
 }
 
@@ -14,17 +15,18 @@ html {
 }
 
 [data-contexto="home"] {
-    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
 }
 
 [data-contexto="produtos"] {
-    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
 }
 
 [data-contexto="vender"] {
-    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
 }
 
+/*Menu*/
 
 .app__header-simbolo{
     display: flex;
@@ -38,6 +40,7 @@ html {
     margin-top: 20px;
 }
 
+/*Cabeçalho*/
 .app__section-banner-container {
     width: 99rem;
     margin: 0 auto;
@@ -52,7 +55,7 @@ html {
     line-height: 150%;
     font-size: 5.2rem;
     font-style: normal;
-    color: white;
+    color: var(--letras);
     font-weight: 200;
     max-width: 46rem;
 }
@@ -61,7 +64,7 @@ html {
     font-weight: 600;
 }
 
-
+/*Banner instagram*/
 
 .app__section-card-container {
     display: flex;
@@ -93,8 +96,7 @@ html {
 }
 
 
-
-
+/*Rodape*/
 .app__footer {
     display: flex;
     width: 100%;
@@ -105,7 +107,7 @@ html {
 }
 
 .app__footer-text {
-    color: white;
+    color: var(--letras);
     text-align: center;
     font-family: Montserrat;
     font-size: 1.5rem;
