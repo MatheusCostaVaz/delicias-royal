@@ -12,14 +12,6 @@
     --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
 }
 
-[data-contexto="produtos"] {
-    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
-}
-
-[data-contexto="vender"] {
-    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
-}
-
 html {
     background: var(--main-bg-color);
     min-height: 100vh;
@@ -94,28 +86,32 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 90%;
 }
 
-
 .app__card-instagram{
     list-style-type: none;
 }
 
+
 /* Produtos */
-.app__section-products-container {
-    /* display: flex;
-    justify-content: center; */
+.app__cabecalho-products {
     display: flex;
     list-style: none;
     justify-content: space-around;
     align-items: center;
 }
 
-.app__section-products-products{
-    display: flex;
-}
 .app__section-products-header{
     width: 10px;
     margin-top: 20px;
 }
+
+.app__section-products-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 .app__card-products{
     display: flex;
@@ -128,8 +124,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 60%;
 }
 
-.app__image{
-    width: 35%;
+.app__image-products{
+    width: 150px;
     padding: 5px;
 }
 
