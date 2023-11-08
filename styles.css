@@ -8,12 +8,6 @@
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
 }
 
-html {
-    background: var(--main-bg-color);
-    min-height: 100vh;
-    font-size: 10px;
-}
-
 [data-contexto="home"] {
     --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
 }
@@ -24,6 +18,23 @@ html {
 
 [data-contexto="vender"] {
     --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
+}
+
+html {
+    background: var(--main-bg-color);
+    min-height: 100vh;
+    font-size: 10px;
+}
+
+body {
+    min-height: 100vh;
+    background: url("./imagens/pattern.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Unbounded', cursive;
 }
 
 /*Menu*/
