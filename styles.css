@@ -1,0 +1,189 @@
+:root {
+    --color-primary:  #ffa500;
+    --color-secondary: #DAA520;
+    --azul-royal:  #FFA500;
+    --fundo-card-timer: #ffa60079;
+    --lils: #B872FF;
+    --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
+}
+
+html {
+    background: var(--main-bg-color);
+    min-height: 100vh;
+    font-size: 10px;
+}
+
+[data-contexto="home"] {
+    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+}
+
+[data-contexto="produtos"] {
+    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+}
+
+[data-contexto="vender"] {
+    --main-bg-color: linear-gradient(180deg, #ffc400 0%, #c59908 48.44%, #ffa500 100%);
+}
+
+
+.app__header-simbolo{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.app__header-simbolo-item{
+    width: 10px;
+    margin-top: 20px;
+}
+
+.app__section-banner-container {
+    width: 99rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.app__title {
+    line-height: 150%;
+    font-size: 5.2rem;
+    font-style: normal;
+    color: white;
+    font-weight: 200;
+    max-width: 46rem;
+}
+
+.app__title-strong {
+    font-weight: 600;
+}
+
+
+
+.app__section-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.app__card {
+    border-radius: 3.2rem;
+    border: 0.2rem solid var(--azul-royal);
+    background: var(--fundo-card-timer);
+    padding: 2.4rem;
+    margin: 8rem 0;
+    width: 59rem;
+    max-width: 90%;
+}
+
+.app__card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.app__card-list-promocoes{
+    list-style-type: none;
+}
+
+
+
+
+.app__footer {
+    display: flex;
+    width: 100%;
+    padding: 2.8rem 6rem;
+    justify-content: center;
+    align-items: center;
+    background: #ffa500;
+}
+
+.app__footer-text {
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* toggle */
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 1.6rem;
+    width: 5.8rem;
+    height: 3.2rem;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.toggle-switch:before, .toggle-switch:after {
+    content: "";
+}
+
+.toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+    background: var(--lils);
+}
+
+.toggle-checkbox:checked + .toggle-switch:before {
+    left: 3rem;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+/* Para Tablets */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .app__section-banner-container {
+        width: 48rem;
+    }
+}
+
+/* Para Celulares */
+@media (max-width: 767px) {
+    .app__section-banner-container {
+        width: 32rem;
+    }
+
+    .app__title {
+        font-size: 2.6rem;
+    }
+
+    .app__card-timer {
+        font-size: 6rem;
+    }
+}
