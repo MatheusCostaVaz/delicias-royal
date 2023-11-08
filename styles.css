@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Banner instagram*/
 
+
 .app__section-card-container {
     display: flex;
     justify-content: center;
@@ -93,22 +94,67 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 90%;
 }
 
-.app__card-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.6rem;
-}
 
-.app__card-list-promocoes{
+.app__card-instagram{
     list-style-type: none;
 }
 
 /* Produtos */
+.app__section-products-container {
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.app__section-products-products{
+    display: flex;
+}
+.app__section-products-header{
+    width: 10px;
+    margin-top: 20px;
+}
+
+.app__card-products{
+    display: flex;
+    border-radius: 3.2rem;
+    border: 0.2rem solid var(--azul-royal);
+    background: var(--fundo-card-timer);
+    padding: 2.4rem;
+    margin: 25px;
+    width: 59rem;
+    max-width: 60%;
+}
+
+.app__image{
+    width: 35%;
+    padding: 5px;
+}
+
+.app__section-products-heading {
+    line-height: 150%;
+    font-size: 5.2rem;
+    font-style: normal;
+    color: var(--letras);
+    font-weight: 200;
+    max-width: 50rem;
+}
+
+.app__title-products {
+    margin-left: 20px;
+    line-height: 150%;
+    font-size: 2.2rem;
+    font-style: normal;
+    color: var(--letras);
+    font-weight: 200;
+    max-width: 35%;
+}
+
+.app__title-products-strong {
+    font-weight: 600;
+}
 
 
 /*Rodape*/
@@ -120,6 +166,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     background: #ffa500;
 }
+
+
 
 .app__footer-text {
     color: var(--letras);
@@ -203,4 +251,9 @@ h1, h2, h3, h4, h5, h6 {
     .app__card-timer {
         font-size: 6rem;
     }
+
+}
+
+.hidden {
+    display: none;
 }
