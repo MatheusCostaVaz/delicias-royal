@@ -5,7 +5,7 @@
     --fundo-card-timer: #ffa60079;
     --lils: #B872FF;
     --letras: #F0F0F0;
-    --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
+    --linear-botes: linear-gradient(180deg, #F3B664 48.44%, #EC8F5E 100%);
 }
 
 [data-contexto="home"] {
@@ -77,9 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app__card {
-    border-radius: 3.2rem;
     border: 0;
-    background: var(--fundo-card-timer);
     padding: 2.4rem;
     margin: 8rem 0;
     width: 59rem;
@@ -111,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     border-radius: 3.2rem;
     border: 0;
-    background: var(--fundo-card-timer);
+    background: var(--linear-botes);
     padding: 2.4rem;
     margin: 10px;
 }
