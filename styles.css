@@ -1,7 +1,7 @@
 :root {
-    --color-primary:  #ffa500;
-    --color-secondary: #DAA520;
-    --azul-royal:  #FFA500;
+    --color-primary:  #EC8F5E;
+    --color-secondary: #F3B664;
+    --azul-royal:  #EC8F5E;
     --fundo-card-timer: #ffa60079;
     --lils: #B872FF;
     --letras: #F0F0F0;
@@ -9,7 +9,7 @@
 }
 
 [data-contexto="home"] {
-    --main-bg-color: linear-gradient(180deg, #f7df49 0%, #c59908 48.44%, #ffa500 100%);
+    --main-bg-color: linear-gradient(180deg, #F1EB90 0%, #F3B664 48.44%, #EC8F5E 100%);
 }
 
 html {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .app__card {
     border-radius: 3.2rem;
-    border: 0.2rem solid var(--azul-royal);
+    border: 0;
     background: var(--fundo-card-timer);
     padding: 2.4rem;
     margin: 8rem 0;
@@ -92,9 +92,20 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Produtos */
-
+.titulo-products{
+    display: flex;
+    justify-content: center;
+}
 .app__section-products-container{
     display: flex;
+    justify-content: center;
+}
+/*  */
+
+
+.app__section-products-content {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -105,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--fundo-card-timer);
     padding: 2.4rem;
     margin: 1rem 0;
-    max-width: 90%;
+    /* max-width: 90%; */
 }
 
 .app__image-products{
@@ -144,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2.8rem 6rem;
     justify-content: center;
     align-items: center;
-    background: #ffa500;
+    background: #EC8F5E;
 }
 
 
