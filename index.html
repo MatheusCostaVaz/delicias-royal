@@ -19,6 +19,8 @@
     <!-- O atributo defer faz com que o navegador baixe o script em segundo
          plano enquanto continua a analisar e renderizar a página. -->
     <!-- <script src="./script.js" defer></script> -->
+
+    <script src="./scripts/menu.js" defer></script>
 </head>
 
 <body oncontextmenu="return false;">
@@ -141,34 +143,6 @@
             <p class="app__footer-text">&copy;
                 2023 Matheus Costa Vaz.
         </footer>
-
-        <script>
-            function scrollToAprentacao() {
-                var section = document.querySelector('.app__section-banner-container');
-
-                window.scrollTo({
-                    top: section.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-            function scrollToProdutos() {
-                var section = document.querySelector('.titulo-products');
-
-                window.scrollTo({
-                    top: section.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-
-            function scrollToCarrinho() {
-                var section = document.querySelector('.titulo-products');
-
-                window.scrollTo({
-                    top: section.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        </script>
 
     </main>
 </body>
