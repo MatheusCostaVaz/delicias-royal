@@ -31,8 +31,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Header*/
+.app__header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--linear-botes);
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-/* .app__header-simbolo{
+.app__header-card {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app__header-simbolo{
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -42,17 +54,21 @@ h1, h2, h3, h4, h5, h6 {
 .app__header-simbolo-item{
     width: 10px;
     margin-top: 20px;
-} */
+}
 
 /*Cabeçalho*/
 .app__section-banner-container {
     width: 80rem;
-    margin: 25px auto 0 auto;
+    margin: auto auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
+}
+
+.app__image-figure{
+    margin-top: 75px;
 }
 
 .app__title {
@@ -234,8 +250,13 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2.6rem;
     }
 
-    .app__card-timer {
-        font-size: 6rem;
+    .app__header-card {
+        flex-direction: column;
+    }
+
+    .app__header-simbolo-item {
+        width: auto;
+        margin-top: 10px;
     }
 
 }
