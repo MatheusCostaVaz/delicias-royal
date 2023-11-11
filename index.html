@@ -21,20 +21,20 @@
     <!-- <script src="./script.js" defer></script> -->
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <main class="app">
         <!-- Barra de menu -->
             <header class="app__header">
                 <div class="app__header-card">
                     <ul class="app__header-simbolo">
                         <li class="app__header-simbolo-item">
-                            <img src="./imagens/logo.png" width="40" alt="Menu">
+                            <img src="./imagens/logo.png" width="40" alt="Menu" onclick="scrollToAprentacao()">
                         </li>
                         <li class="app__header-simbolo-item">
-                            <img src="./imagens/coxinha.png" width="40" alt="Produtos">
+                            <img src="./imagens/coxinha.png" width="40" alt="Produtos" onclick="scrollToProdutos()">
                         </li>
                         <li class="app__header-simbolo-item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="40" alt="Vendas">
+                            <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="40" alt="Carrinho" onclick="scrollToCarrinho()">
                         </li>
                     </ul>            
                 </div>
@@ -141,8 +141,36 @@
             <p class="app__footer-text">&copy;
                 2023 Matheus Costa Vaz.
         </footer>
+
+        <script>
+            function scrollToAprentacao() {
+                var section = document.querySelector('.app__section-banner-container');
+
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+            function scrollToProdutos() {
+                var section = document.querySelector('.titulo-products');
+
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+
+            function scrollToCarrinho() {
+                var section = document.querySelector('.titulo-products');
+
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+
     </main>
-
-
 </body>
+</html>
 

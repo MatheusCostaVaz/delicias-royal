@@ -241,7 +241,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Para Celulares */
-@media (max-width: 767px) {
+@media only screen and (max-width: 896px) {
+
     .app__section-banner-container {
         width: 32rem;
     }
@@ -252,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .app__header-card {
         flex-direction: column;
-    }
+    }    
 
     .app__header-simbolo-item {
         width: auto;
