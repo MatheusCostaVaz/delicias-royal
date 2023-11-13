@@ -27,16 +27,9 @@ body {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   font-family: "Unbounded", cursive;
 }
+
 
 /*Header*/
 .app__header {
@@ -146,17 +139,17 @@ h6 {
 
 .app__section__container-wrapper {
   position: relative;
-}
-
-.superior__item {
-  margin: 10px;
   line-height: 150%;
   font-size: 2rem;
   font-style: normal;
   color: var(--letras);
   font-weight: 200;
   max-width: 100%;
-  cursor: pointer;
+  cursor: pointer;  
+}
+
+.superior__item {
+  margin: 10px;
 }
 
 .superior__item:hover {
@@ -205,7 +198,7 @@ h6 {
 }
 
 .app__section-products__button {
-  margin-left: 8%;
+  margin-left: 4%;
   margin-top: 5%;
   padding: 12px;
   border-radius: 10rem;
@@ -226,20 +219,19 @@ h6 {
 }
 
 .box {
-  margin-left: 8%;
+  margin-left: 4%;
   margin-top: 5%;
   padding: 5px;
   border-radius: 10rem;
   color: var(--letras);
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 2rem;
   letter-spacing: 0.15rem;
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background-color: var(--primary-color);
-  font-size: 2.5em;
   border-bottom: 2px solid var(--letras);
 }
 
@@ -340,10 +332,6 @@ h6 {
     margin-top: 10px;
   }
 
-  .app__section__container-wrapper {
-    margin-left: 27.5rem;
-    position: relative;
-  }
   
 }
 
