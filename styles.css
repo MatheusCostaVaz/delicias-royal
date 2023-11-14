@@ -172,6 +172,7 @@ body {
 .app__image-products {
   width: 150px;
   padding: 5px;
+  border-radius: 3.2rem;
 }
 
 .app__section-products-heading {
