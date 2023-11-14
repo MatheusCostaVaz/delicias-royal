@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.app__card-products');
+const cards = document.querySelectorAll('.app__card-products, .app__card-products-combo');
 
 // Itera sobre cada card
 cards.forEach(card => {

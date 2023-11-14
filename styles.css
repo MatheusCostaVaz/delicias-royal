@@ -171,6 +171,7 @@ body {
   border-radius: 3rem;
   max-width: 150px;
   padding: 5px;
+  object-fit: contain;
 }
 
 .app__section-products-heading {
@@ -201,7 +202,8 @@ body {
   max-width: 75%;
 }
 
-.app__descricao-combo{
+.app__title-products-descricao{
+  margin-left: 20px;
   line-height: 150%;
   font-size: 1.3rem;
   font-style: normal;
@@ -232,6 +234,7 @@ body {
 }
 
 .app__product-details {
+  max-width: 237.25px;
   text-align: center;
 }
 
