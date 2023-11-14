@@ -1,7 +1,9 @@
 :root {
   --color-primary: #ec8f5e;
   --color-secondary: #f3b664;
-  --color-terciário: #ec8f5e;
+  --azul-royal: #ec8f5e;
+  --fundo-card-timer: #ffa60079;
+  --lils: #b872ff;
   --letras: #f0f0f0;
   --linear-botes: linear-gradient(180deg, #f3b664 48.44%, #ec8f5e 100%);
 }
@@ -168,8 +170,7 @@ body {
 }
 
 .app__image-products {
-  border-radius: 3rem;
-  max-width: 150px;
+  width: 150px;
   padding: 5px;
 }
 
@@ -182,28 +183,10 @@ body {
   max-width: 50rem;
 }
 
-.app__card-products-combo{
-  display: flex;
-  border-radius: 3.2rem;
-  border: 0;
-  background: var(--linear-botes);
-  padding: 2.4rem;
-  margin: 10px;
-}
-
 .app__title-products {
   margin-left: 20px;
   line-height: 150%;
   font-size: 2rem;
-  font-style: normal;
-  color: var(--letras);
-  font-weight: 200;
-  max-width: 75%;
-}
-
-.app__descricao-combo{
-  line-height: 150%;
-  font-size: 1.3rem;
   font-style: normal;
   color: var(--letras);
   font-weight: 200;
