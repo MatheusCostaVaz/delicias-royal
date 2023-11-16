@@ -108,6 +108,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .app__section-products-container {
   display: flex;
   justify-content: center;
@@ -156,6 +157,7 @@ body {
   transition: 0.5s;
 }
 
+
 /* Cards de produto */
 
 .app__card-products {
@@ -174,6 +176,10 @@ body {
   object-fit: contain;
 }
 
+.app__image-products:hover{
+  transform: scale(1.2);
+}
+
 .app__section-products-heading {
   line-height: 150%;
   font-size: 4.2rem;
@@ -181,15 +187,6 @@ body {
   color: var(--letras);
   font-weight: 200;
   max-width: 50rem;
-}
-
-.app__card-products-combo{
-  display: flex;
-  border-radius: 3.2rem;
-  border: 0;
-  background: var(--linear-botes);
-  padding: 2.4rem;
-  margin: 10px;
 }
 
 .app__title-products {
@@ -233,8 +230,12 @@ body {
   cursor: pointer;
 }
 
+.app__section-products__button:hover {
+  transform: scale(1.1);
+}
+
 .app__product-details {
-  max-width: 237.25px;
+  max-width: 100px;
   text-align: center;
 }
 
@@ -258,7 +259,6 @@ body {
 /*Rodape*/
 .app__footer {
   display: flex;
-  /* width: 100%; */
   padding: 2.8rem 6rem;
   justify-content: center;
   align-items: center;
@@ -269,7 +269,7 @@ body {
   color: var(--letras);
   text-align: center;
   font-family: Montserrat;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
