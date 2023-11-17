@@ -25,5 +25,15 @@ var produtos = [
         imagem: "./../imagens/empada.png",
         categoria: "Salgado",
         quantidade: 0
+    },
+    {
+        id: 4,
+        titulo: "Bola de Queijo",
+        descricao: "Deliciosa bola de queijo",
+        preco: 3.5,
+        imagem: "./../imagens/boladequeijo.png",
+        categoria: "Salgado",
+        quantidade: 0
     }
+
 ]

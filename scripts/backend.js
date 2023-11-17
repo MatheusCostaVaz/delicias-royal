@@ -3,9 +3,9 @@ const containerProdutos = document.querySelector(
 );
 
 function exibirNaTela() {
-  produtos.forEach((produto) => {
+  produtos.forEach((produto,index) => {
     containerProdutos.innerHTML += `
-      <div class="app__card-products">
+      <div class="app__card-products" data-index="${index}">
               <img
                 class="app__image-products"
                 src="${produto.imagem}"
@@ -39,3 +39,5 @@ function exibirNaTela() {
 }
 
 exibirNaTela();
+
+exibirCarrinhoNaTela();

@@ -110,7 +110,8 @@ body {
 /* Produtos */
 .titulo-produtos,
 .titulo-carrinho,
-.app__section-products-container {
+.app__section-products-container,
+.app__section_total {
   display: flex;
   justify-content: center;
 }
@@ -172,9 +173,9 @@ body {
 
 .app__image-products {
   border-radius: 3rem;
-  max-width: 150px;
-  padding: 5px;
+  max-width: 125px;
   object-fit: contain;
+  padding: 5px;
 }
 
 .app__image-products:hover{
@@ -256,6 +257,59 @@ body {
   background-color: var(--primary-color);
   border-bottom: 2px solid var(--letras);
 }
+
+/* Carrinho */
+
+.app__section-carrinho-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.app__title-carrinho {
+  margin-left: 20px;
+  line-height: 150%;
+  font-size: 2rem;
+  font-style: normal;
+  color: var(--letras);
+  font-weight: 200;
+  max-width: 75%;
+}
+
+.app__title-carrinho-strong {
+  font-weight: 600;
+}
+
+.app__card-carrinho {
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app__carrinho-details {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.app_carrinho-details-total{
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 0 10px var(--letras);
+}
+
+.app__title-carrinho-vazio {
+  line-height: 150%;
+  font-size: 2.2rem;
+  font-style: normal;
+  color: var(--letras);
+  font-weight: 200;
+  max-width: 50rem;
+  text-align: center;
+}
+
 
 /*Rodape*/
 .app__footer {
