@@ -4,6 +4,7 @@
   --color-terciário: #ec8f5e;
   --letras: #f0f0f0;
   --linear-botes: linear-gradient(180deg, #f3b664 48.44%, #ec8f5e 100%);
+  --main-bg-color: linear-gradient(180deg,#f1eb90 0%,#f3b664 48.44%,#ec8f5e 100%);
 }
 
 [data-contexto="home"] {
@@ -286,6 +287,7 @@ body {
   padding: 15px;
   width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 3.2rem;
 }
 
 .app__carrinho-details {
@@ -298,6 +300,7 @@ body {
   padding: 15px;
   width: 300px;
   box-shadow: 0 0 10px var(--letras);
+  border-radius: 3.2rem;
 }
 
 .app__title-carrinho-vazio {
@@ -382,7 +385,7 @@ body {
 }
 
 /* Para Tablets */
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 896px) {
   .app__section-banner-container {
     width: 48rem;
   }
@@ -390,10 +393,13 @@ body {
 
 /* Para Celulares */
 @media only screen and (max-width: 896px) {
+  .app{
+    justify-content: center;
+  }
   .app__section-banner-container {
     width: 32rem;
+    justify-content: center;
   }
-
   .app__title {
     font-size: 2.6rem;
   }
