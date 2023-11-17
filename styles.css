@@ -50,10 +50,14 @@ body {
   align-items: center;
 }
 
+
 .app__header-simbolo-item {
   width: 10px;
   margin-top: 20px;
   cursor: pointer;
+}
+.app__header-simbolo-item:hover{
+  transform: scale(1.1);
 }
 
 /*Cabeçalho*/
@@ -104,11 +108,8 @@ body {
 }
 
 /* Produtos */
-.titulo-products {
-  display: flex;
-  justify-content: center;
-}
-
+.titulo-produtos,
+.titulo-carrinho,
 .app__section-products-container {
   display: flex;
   justify-content: center;
@@ -180,7 +181,7 @@ body {
   transform: scale(1.2);
 }
 
-.app__section-products-heading {
+.app__section-heading {
   line-height: 150%;
   font-size: 4.2rem;
   font-style: normal;
