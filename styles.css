@@ -155,7 +155,8 @@ body {
   margin: 10px;
 }
 
-.superior__item:hover {
+.superior__item:hover,
+.superior__item.selected {
   color: black;
   background-color: var(--linear-botes);
   transition: 0.5s;

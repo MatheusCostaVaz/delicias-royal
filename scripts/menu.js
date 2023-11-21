@@ -8,7 +8,7 @@ function scrollToAprentacao() {
 function scrollToProdutos() {
     var section = document.querySelector('.titulo-produtos');
     window.scrollTo({
-        top: section.offsetTop,
+        top: section.offsetTop - 50,
         behavior: 'smooth'
     });
 }
@@ -16,7 +16,7 @@ function scrollToProdutos() {
 function scrollToCarrinho() {
     var section = document.querySelector('.titulo-carrinho');
     window.scrollTo({
-        top: section.offsetTop,
+        top: section.offsetTop - 50,
         behavior: 'smooth'
     });
 }

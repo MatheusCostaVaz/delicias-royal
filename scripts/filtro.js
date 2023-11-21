@@ -1,8 +1,15 @@
 const botaoCategoria = document.querySelectorAll(".superior__item");
 
 botaoCategoria.forEach((botao) => {
-  let nomeCategoria = botao.getAttribute("name");
-  botao.addEventListener("click", () => filtrarPorCategoria(nomeCategoria));
+  botao.addEventListener("click", () => {
+    botaoCategoria.forEach((element) => {
+      element.classList.remove("selected");
+    });
+
+    botao.classList.add("selected");
+
+    filtrarPorCategoria(botao.getAttribute("name"));
+  });
 });
 
 function filtrarPorCategoria(filtro) {
