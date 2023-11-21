@@ -32,6 +32,7 @@ function exibirNaTela() {
                 >
                   <i class="fa-solid fa-plus fa-beat"></i>
                 </button>
+                <p class="categoria" hidden>${produto.categoria}</p>
               </div>
       </div>
       `;
