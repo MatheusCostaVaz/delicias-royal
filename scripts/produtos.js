@@ -12,7 +12,7 @@ var produtos = [
     id: 6,
     titulo: "Combo Galera",
     descricao: "10 deleciosas coxinhas + 1 refri de 350ml",
-    preco: 18.0,
+    preco: 39.9,
     imagem: "./../imagens/ComboGalera.png",
     categoria: ["Combo"],
     quantidade: 0,
