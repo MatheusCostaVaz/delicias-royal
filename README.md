@@ -1,7 +1,8 @@
+# Sobre
+* Sistema web básico para vendas, na qual tem como objetivo mostrar o front-end.
+
 # Tecnologias utilizadas
-* Javascript
-  
-# Tecnologias utilizadas no projeto
+* JavaScript
 * HTML
 * CSS
 
