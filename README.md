@@ -6,6 +6,6 @@
 * CSS
 
 # Screenshots
-![Screenshot da tela inicial do Delicia Royal](https://i.imgur.com/uOgSl0A.png)
-![Screenshot da tela de produtos](https://i.imgur.com/cKNIWwy.png)
-![Screenshot da tela do carrinho](https://i.imgur.com/hkbZ1B5.png)
+![image](https://github.com/MatheusCostaVaz/delicias-royal/assets/105075092/6d2f9cfc-1052-4f39-b498-62392442eda2)
+
+
