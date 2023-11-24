@@ -15,7 +15,7 @@ O projeto Delicias Royal é uma aplicação web simples e interativa que permite
 É composta por três telas principais:
 
 - Tela inicial: essa tela apresenta a capa do site, com uma imagem de destaque e instagram da empresa.
-- Tela de produtos: essa tela lista todos os produtos disponíveis, com fotos, preços e descrições.
+- Tela de produtos: essa tela lista todos os produtos disponíveis, com fotos, preços, descrições e filtro.
 - Tela de carrinho: essa tela lista todos os produtos adicionado.
 
 Os usuários podem navegar pelas telas usando o mouse. Para adicionar um produto ao carrinho, basta clicar no botão de "+".
