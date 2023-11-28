@@ -4,7 +4,12 @@
   --color-terciário: #ec8f5e;
   --letras: #f0f0f0;
   --linear-botes: linear-gradient(180deg, #f3b664 48.44%, #ec8f5e 100%);
-  --main-bg-color: linear-gradient(180deg,#f1eb90 0%,#f3b664 48.44%,#ec8f5e 100%);
+  --main-bg-color: linear-gradient(
+    180deg,
+    #f1eb90 0%,
+    #f3b664 48.44%,
+    #ec8f5e 100%
+  );
 }
 
 [data-contexto="home"] {
@@ -30,7 +35,6 @@ body {
   background-color: var(--main-bg-color);
 }
 
-
 /*Header*/
 .app__header {
   position: fixed;
@@ -52,13 +56,12 @@ body {
   align-items: center;
 }
 
-
 .app__header-simbolo-item {
   width: 10px;
   margin-top: 20px;
   cursor: pointer;
 }
-.app__header-simbolo-item:hover{
+.app__header-simbolo-item:hover {
   transform: scale(1.1);
 }
 
@@ -148,7 +151,7 @@ body {
   color: var(--letras);
   font-weight: 200;
   max-width: 100%;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .superior__item {
@@ -161,7 +164,6 @@ body {
   background-color: var(--linear-botes);
   transition: 0.5s;
 }
-
 
 /* Cards de produto */
 
@@ -181,7 +183,7 @@ body {
   padding: 5px;
 }
 
-.app__image-products:hover{
+.app__image-products:hover {
   transform: scale(1.2);
 }
 
@@ -204,7 +206,7 @@ body {
   max-width: 75%;
 }
 
-.app__title-products-descricao{
+.app__title-products-descricao {
   margin-left: 20px;
   line-height: 150%;
   font-size: 1.3rem;
@@ -263,7 +265,7 @@ body {
 
 /* Carrinho */
 
-.app__section-carrinho-lista{
+.app__section-carrinho-lista {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -297,7 +299,7 @@ body {
   margin-bottom: 15px;
 }
 
-.app_carrinho-details-total{
+.app_carrinho-details-total {
   margin: 10px;
   padding: 15px;
   width: 300px;
@@ -315,19 +317,26 @@ body {
   text-align: center;
 }
 
-
 /*Rodape*/
 .app__footer {
   display: flex;
+  flex-direction: column;
+  margin-top: 25px;
   padding: 2.8rem 6rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background: #ec8f5e;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.app__footer-sobre,
+.app__footer-contatos {
+  width: 100%;
+  text-align: center;
 }
 
 .app__footer-text {
   color: var(--letras);
-  text-align: center;
   font-family: Montserrat;
   font-size: 1.8rem;
   font-style: normal;
@@ -395,7 +404,7 @@ body {
 
 /* Para Celulares */
 @media only screen and (max-width: 896px) {
-  .app{
+  .app {
     justify-content: center;
   }
   .app__section-banner-container {
@@ -414,8 +423,6 @@ body {
     width: auto;
     margin-top: 10px;
   }
-
-  
 }
 
 .hidden {
